@@ -14,7 +14,12 @@ header {
   top: 0;
   z-index: 1;
 }
-
+header .logo {
+  height: 40px;
+  width: 40px;
+  background-color: #db16cb;
+  border-radius: 100%;
+}
 header h1 {
   display: inline-block;
   background-color: #494949;
@@ -35,6 +40,7 @@ header ul li a {
 section p {
   font-size: larger;
   margin-top: 60px;
+  background-color: #494949;
 }
 
 .content {
